@@ -1,0 +1,265 @@
+/* CSS Test */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1;
+    background-color: #202020;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+
+.chaordic {
+  font-family: Arial, sans-serif;
+  border: 1px solid #CCC;
+}
+.chaordic h2 {
+/*  display: block;
+  font-size: 16px;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #c3e4ed), color-stop(50%, #c1f0f6));
+  background-image: -webkit-linear-gradient(#c3e4ed 50%, #c1f0f6 50%);
+  background-image: -moz-linear-gradient(#c3e4ed 50%, #c1f0f6 50%);
+  background-image: -o-linear-gradient(#c3e4ed 50%, #c1f0f6 50%);
+  background-image: linear-gradient(#c3e4ed 50%, #c1f0f6 50%);*/
+}
+.chaordic .reference {
+  float: left;
+  width: 20%;
+}
+.chaordic .reference .item {
+  border-right: 1px solid #CCC;
+  width: 100%;
+}
+.chaordic .recommendation {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 80%;
+}
+.chaordic .list {
+  display: block;
+}
+.chaordic .item {
+  float: left;
+  padding: 10px;
+}
+.chaordic .item:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c3e4ed), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#c3e4ed, #ffffff);
+  background-image: -moz-linear-gradient(#c3e4ed, #ffffff);
+  background-image: -o-linear-gradient(#c3e4ed, #ffffff);
+  background-image: linear-gradient(#c3e4ed, #ffffff);
+}
+.chaordic .item figure {
+  text-align: center;
+}
+.chaordic .item .text {
+  display: block;
+  font-size: 12px;
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: 43.2px;
+  /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 1.2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+}
+.chaordic .item .old-price {
+  display: block;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.chaordic .item .price {
+  display: block;
+  padding: 2px 0;
+}
+.chaordic .item .payment {
+  color: #900;
+  font-size: 12px;
+}
+.chaordic .carousel {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 0 30px;
+}
+.chaordic .carousel .list {
+  position: relative;
+}
+.chaordic .carousel .btn-list button {
+  background: #EEE;
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  -webkit-box-shadow: #aaaaaa 4px 4px 10px;
+  -moz-box-shadow: #aaaaaa 4px 4px 10px;
+  box-shadow: #aaaaaa 4px 4px 10px;
+  font-size: 30px;
+  color: #666666;
+}
+.chaordic .carousel .btn-list button:hover {
+  color: #0000FF;
+}
+.chaordic .carousel .btn-list #btn-next {
+  right: 0;
+  -webkit-box-shadow: #aaaaaa -4px -4px 10px;
+  -moz-box-shadow: #aaaaaa -4px -4px 10px;
+  box-shadow: #aaaaaa -4px -4px 10px;
+}
+.chaordic .carousel .btn-list #btn-prev {
+  left: 0;
+}
+
+
+
+
+
+.titleReader
+{
+    color: #086899;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff7fe+44,e5f1fb+51 */
+    background: #eff7fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #eff7fe 44%, #e5f1fb 51%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eff7fe 44%,#e5f1fb 51%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eff7fe 44%,#e5f1fb 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7fe', endColorstr='#e5f1fb',GradientType=0 ); /* IE6-9 */
+
+}
+
+.a
+{
+    color: #CD0000;
+}
+
+#chaordicOnSite
+{
+    background-color: #fff;
+    margin: 20px;
+}
+
+
+#triangleNext, #trianglePrev
+{
+
+    height:40px;
+    width:40px;
+}
+
+#triangleNext:before, #trianglePrev:after
+{
+
+    height:100%;
+    width:100%;
+    background-color: blue;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+0,8c8c8c+100 */
+    background: #d6d6d6; /* Old browsers */
+    background: -moz-linear-gradient(top, #d6d6d6 0%, #8c8c8c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d6d6d6 0%,#8c8c8c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d6d6d6 0%,#8c8c8c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#8c8c8c',GradientType=0 ); /* IE6-9 */
+}
+
+#trianglePrev {
+    position:relative;
+    overflow:hidden;
+    float: left;
+    margin-top: -150px;
+    margin-left: -39px;
+}
+#trianglePrev:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content:'';
+    display:block;
+    position:absolute;
+    left:75%;
+}
+
+#triangleNext {
+    position:relative;
+    overflow:hidden;
+    float: right;
+    margin-top: -150px;
+    margin-left: 0px;
+}
+#triangleNext:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content:'';
+    display:block;
+    position:absolute;
+    left:-75%;
+}
+
+.price
+{
+    font-weight: normal;
+    color: #CC0000;
+}
+.price .bigger
+{
+    font-weight: 900;
+    /*font-style: */
+}
+.paymentConditions
+{
+    font-size: 80%;
+    font-weight: 900;
+    color: #CC0000;
+}
+
+.interest
+{
+    font-size: 60%;
+    color: #CC0000;
+}
+
+.carousel, .reference .list
+{
+    margin-top: 10px;
+}
+.carousel li, .reference .list li
+{
+    /*background-color: red;*/
+}
+
+.linkImg
+{
+    display: block;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
