@@ -168,14 +168,14 @@ ol, ul, li {
 }
 
 
-#triangleNext, #trianglePrev
+#triangleNextBox, #trianglePrev
 {
 
     height:40px;
     width:40px;
 }
 
-#triangleNext:before, #trianglePrev:after
+#triangleNextBox:before, #trianglePrev:after
 {
 
     height:100%;
@@ -207,14 +207,25 @@ ol, ul, li {
     left:75%;
 }
 
-#triangleNext {
+/*#triangleNextBox {
     position:relative;
     overflow:hidden;
     float: right;
     margin-top: -150px;
     margin-left: 0px;
+
+    width: 5px;
+    height: 5px;
+    border-style: solid;
+    border-width: 20px 0px 20px 20px;
+    border-color: transparent transparent transparent #d6d6d6; 
 }
-#triangleNext:before {
+
+#triangleNextBox:hover
+{
+    border-color: transparent transparent transparent #1B5FA0;
+}*/
+/*#triangleNextBox:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -222,7 +233,35 @@ ol, ul, li {
     display:block;
     position:absolute;
     left:-75%;
+}*/
+
+
+#triangleNextBox {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(0deg);
+    top: 80px;
 }
+
+#triangleNextIn {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: linear-gradient(90deg, #BEBFC4, #000);
+    clip-path: polygon(50% 0, 49% 100%, 100% 50%);
+    display: block;
+}
+
+#triangleNextIn:hover {
+    background: linear-gradient(-90deg, #034482, #BEBFC4);
+}
+
+
+
 
 .price
 {

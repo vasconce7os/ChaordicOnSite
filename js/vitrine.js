@@ -83,7 +83,7 @@ function createReference(obj){
     }
 
     if(text !== undefined){
-      el.text(text);
+        el.text(text);
     }
     return el;
   }
@@ -91,7 +91,7 @@ function createReference(obj){
 function documentReady(){
     var script = document.createElement('script');
     script.src = "http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X";
-    // script.src = "js/local_data.json?callback=X";
+    script.src = "js/local_data.json?callback=X";
     document.getElementsByTagName('body')[0].appendChild(script);
 }
 

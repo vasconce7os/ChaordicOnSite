@@ -10,10 +10,10 @@ var carousel = (function() {
   config.transition   = 'margin-left ' + config.speed + 'ms' + ' ' + config.effect + ' ' + config.delay + 'ms';
   config.carousel     = ".carousel";
   config.carouselList = ".carousel .list";
-  config.nextName     = "triangleNext"; //btn-next
+  config.nextName     = "triangleNextBox"; //btn-next
   config.prevName     = "trianglePrev"; //btn-prev
   config.btnList      = createMarkup.newElement("div", {"class" : "btn-list"});
-  config.btnNext      = createMarkup.newElement("div", {"id" : config.nextName}, null);
+  config.btnNext      = createMarkup.newElement("div", {"id" : config.nextName}, '<div id="triangleNextIn"></div>');
   config.btnPrev      = createMarkup.newElement("div", {"id" : config.prevName}, null);
 
 
