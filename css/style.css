@@ -207,41 +207,12 @@ ol, ul, li {
     left:75%;
 }
 
-/*#triangleNextBox {
-    position:relative;
-    overflow:hidden;
-    float: right;
-    margin-top: -150px;
-    margin-left: 0px;
-
-    width: 5px;
-    height: 5px;
-    border-style: solid;
-    border-width: 20px 0px 20px 20px;
-    border-color: transparent transparent transparent #d6d6d6; 
-}
-
-#triangleNextBox:hover
-{
-    border-color: transparent transparent transparent #1B5FA0;
-}*/
-/*#triangleNextBox:before {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    transform: rotate(45deg);
-    content:'';
-    display:block;
-    position:absolute;
-    left:-75%;
-}*/
-
-
 #triangleNextBox {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 70px;
     position: absolute;
-    transform: rotate(0deg);
-    top: 80px;
+    top: 100px;
+    right: 100px;
 }
 
 #triangleNextIn {
@@ -251,17 +222,14 @@ ol, ul, li {
     bottom: 10px;
     left: 10px;
     right: 10px;
-    background: linear-gradient(90deg, #BEBFC4, #000);
-    clip-path: polygon(50% 0, 49% 100%, 100% 50%);
+    background: linear-gradient(90deg, #BEBFC4, #034482);
+    clip-path: polygon(50% 0, 50% 100%, 100% 50%);
     display: block;
 }
 
 #triangleNextIn:hover {
-    background: linear-gradient(-90deg, #034482, #BEBFC4);
+    background: linear-gradient(90deg, #BEBFC4, #031f82);
 }
-
-
-
 
 .price
 {
